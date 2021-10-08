@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url('../Space_Grotesk/SpaceGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url('../Space_Grotesk/SpaceGrotesk-Light.ttf');
+}
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url('../Space_Grotesk/SpaceGrotesk-Medium.ttf');
+}
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url('../Space_Grotesk/SpaceGrotesk-Regular.ttf');
+}
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url('../Space_Grotesk/SpaceGrotesk-SemiBold.ttf');
+}
+body {  
+    background-image: url("../images/Home\ Digital\ Value.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Space_Grotesk';
+} 
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 119%;
+    text-align: center;
+    color: white;
+}
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #ACACAC;
+}
+
+/* Notify-me */
+section.form-notify{
+    height: 5449px;
+    padding: 20%;
+}
+section.form-notify form{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    background: linear-gradient(262.73deg, rgba(51, 169, 254, 0.6) -3.4%, rgba(255, 62, 189, 0.6) 100%) ;
+    backdrop-filter: blur(17.4139px);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+input{
+    width: 271px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: white;
+}
+
+button{
+    border: none    ;
+    margin-left: -20px;
+    width: 149px;
+    color: #261752;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+}
